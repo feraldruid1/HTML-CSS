@@ -1,0 +1,142 @@
+* {
+margin: 0px;
+padding: 0px;
+font-family: 'Kumbh Sans';
+background-repeat: no-repeat;
+}
+body {
+    
+    background-image: url("./images/bg-pattern-top.svg"), url("./images/bg-pattern-bottom.svg");
+    background-position: calc(-46vw + 100%) calc(-34vh + 100%), 45vw 45vh;
+    background-color: #19a1ad;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    height: 100vh;
+}
+.mainbox {
+    background-image: url("./images/bg-pattern-card.svg");
+    background-size: 350px 140px;
+    width: 350px;
+    height: 374px;
+    border-radius: 15px;
+    background-color: white;
+}
+.manpicture {
+    border-radius: 50%;
+    border: 5px solid #FFFFFF;
+    align-self: center;
+}
+.borderbox {
+    height: 285px;
+    width: 350px;
+    border-bottom: 1px solid #E8E9EC;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+}
+.victor {
+    display: inline;
+    font-weight: 700;
+    font-size: 18px;
+    line-height: 22px;
+}
+.age {
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 17px;
+    color: #6B7082;
+}
+.city {
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 22px;
+    color: #6B7082;
+    margin-top: 13px;
+}
+.count {
+    font-weight: 700;
+    font-size: 18px;
+    line-height: 22px;
+    color: #2E3349;
+    
+}
+.followers {
+    font-weight: 400;
+    font-size: 10px;
+    line-height: 12px;
+    color: #6B7082;
+    margin-top: 9px;
+}
+.likescount {
+    font-weight: 700;
+    font-size: 18px;
+    line-height: 22px;
+    color: #2E3349;
+    
+}
+.likes {
+    font-weight: 400;
+    font-size: 10px;
+    line-height: 12px;
+    color: #6B7082;
+    margin-top: 9px;
+}
+.photoscount {
+    font-weight: 700;
+    font-size: 18px;
+    line-height: 22px;
+    color: #2E3349;
+    
+}
+.photos {
+    font-weight: 400;
+    font-size: 10px;
+    line-height: 12px;
+    color: #6B7082;
+    margin-top: 9px;
+}
+.countsbox {
+    height: 88px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+.countfollows {
+    display: flex;
+    flex-direction: column;
+    
+}
+.countphotos {
+    display: flex;
+    flex-direction: column;
+        
+}
+.countlikes {
+    display: flex;
+    flex-direction: column;
+        
+}
+.minibox1 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    height: 145px;
+    width: 350px;
+}
+.picturefix {
+    width: 350px;
+    height: 140px;
+
+}
+@media only screen and (max-width: 375px) {
+    .mainbox {
+      width: 326px;
+    }
+    .borderbox {
+        width: 326px;
+    }
+  }  
+  

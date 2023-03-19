@@ -1,0 +1,339 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+    font-family: 'Plus Jakarta Sans',sans-serif;
+}
+body{
+    background-color: #fafafa;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.maindiv{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 343px;
+}
+header{
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+}
+.getstarted1{
+    width: 140px;
+    background: #13183F;
+    border-radius: 28px;
+    height: 48px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 31px;
+}
+.skilled{
+    align-self: flex-start;
+    width: 89px;
+    margin-top: 31px;
+}
+.getstarted2{
+    background: linear-gradient(180deg, #FF6F48 0%, #F02AA6 100%);
+    border-radius: 31.5px;
+    width: 167px;
+    height: 56px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 24px;
+    align-self: flex-start;
+}
+h1{
+    font-weight: 800;
+    font-size: 40px;
+    line-height: 50px;
+    color: #13183F;
+    margin-top: 38px;
+    width: 390px;
+    align-self: flex-start;
+}
+h2{
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 26px;
+    color: #83869A;
+    margin-top: 26px;
+    width: 343px;
+    align-self: flex-start;
+}
+h3{
+    font-weight: 800;
+    font-size: 24px;
+    line-height: 32px;
+    color: #FFFFFF;
+    width: 286px;
+}
+.h3div{
+    width: 343px;
+    height: 120px;
+    background: linear-gradient(180deg, #FF6F48 0%, #F02AA6 100%);
+    border-radius: 10px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+h4{
+    font-weight: 800;
+    font-size: 20px;
+    line-height: 25px;
+    color: #13183F;
+    margin-top: 27px;
+    margin-left: 28px;
+}
+.box{
+    background: #FFFFFF;
+    box-shadow: 0px 25px 50px rgba(6, 22, 141, 0.0442381);
+    border-radius: 10px;
+    width: 343px;
+    height: 259px;
+    margin-top: 40px;
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
+}
+p{
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 26px;
+    color: #83869A;
+    margin-top: 16px;
+    margin-left: 28px;
+    margin-bottom: 24px;
+}
+.boxspan{
+    font-weight: 700;
+    font-size: 18px;
+    line-height: 28px;  
+    color: #F74780;
+    margin-left: 28px;
+    margin-bottom: 32px;
+}
+.divgirlimage{
+    width: 327px;
+    height: 301px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 46px;
+}
+.imageofgirl{
+    width: 100%;
+}
+.icon{
+    position: absolute;
+    top: -24px;
+}
+.enddiv{
+    align-self: flex-end;
+    height: 120px;
+    background: #13183F;
+    margin-top: 80px;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.end2{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 343px;
+}
+.lastdivsp{
+    background: linear-gradient(180deg, #4851FF 0%, #F02AA6 100%);
+    border-radius: 28px;
+    width: 140px;
+    height: 48px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.icon{
+    left: 28px;
+}
+@media only screen and (min-width:768px){
+    .divgirlimage{
+        display: none;
+    }
+    body{
+        
+        background-image: url("./assets/image-hero-tablet.png");
+        background-repeat: no-repeat;
+        background-position: right -250px top -50px;
+    }
+    .maindiv{
+        width: 700px;
+        padding: 0px;
+    }
+    .skilled{
+        font-weight: 800;
+        font-size: 36px;
+        line-height: 45px;
+    }
+    .getstarted1{
+        font-weight: 700;
+        font-size: 18px;
+        line-height: 28px;
+        display: flex;
+        align-items: center;
+    }
+    h1{
+        font-weight: 800;
+        font-size: 40px;
+        line-height: 50px;
+        width: 400px;
+        margin-top: 105px;
+    }
+    h2{
+        width: 400px;
+        font-weight: 500;
+        font-size: 16px;
+        line-height: 26px;
+    }
+    h3{
+        font-weight: 800;
+        font-size: 24px;
+        line-height: 32px;
+        align-self: flex-start;
+        margin-top: 56px;
+    }
+    .h3div{
+        width: 339px;
+        height: 259px;
+        align-self: flex-end;
+    }
+    h4{
+        font-weight: 800;
+        font-size: 20px;
+        line-height: 25px;
+        margin-left: 32px;
+    }
+    .getstarted2{
+        font-weight: 700;
+        font-size: 18px;
+        line-height: 28px;
+    }
+    .box{
+        width: 340px;
+        height: 259px;
+    }
+    main{
+        display: flex;
+        flex-wrap: wrap;
+        margin-top: 210px;
+        gap: 20px;
+        width: 100%;
+    }
+    .lastgetstarted{
+        font-weight: 800;
+        font-size: 36px;
+        line-height: 45px;
+    }
+    .icon{
+        left: 32px;
+    }
+    p{
+        font-weight: 500;
+        font-size: 16px;
+        line-height: 26px;
+        width: 286px;
+        margin-left: 32px;
+    }
+    .boxspan{
+        font-weight: 700;
+        font-size: 18px;
+        line-height: 28px;
+        margin-left: 32px;
+        margin-bottom: 32px;
+    }
+    .lastskilled{
+        font-weight: 800;
+        font-size: 36px;
+        line-height: 45px;
+    }
+    .end2{
+        width: 700px;
+    }
+    @media only screen and (min-width:1115px) {
+        .maindiv{
+            width: 1090px ;
+            background-image: none;
+        }
+        body{
+            background-image: url("./assets/image-hero-desktop.png");
+            background-repeat: no-repeat;
+            background-position: right -350px top -150px;
+        }
+        h1{
+            font-weight: 800;
+            font-size: 56px;
+            line-height: 71px;
+            width: 520px;
+            margin-top: 178px;
+        }
+        h2{
+            font-weight: 500;
+            font-size: 18px;
+            line-height: 28px;
+            margin-left: 0px;
+            width: 430px;
+        }
+        h3{
+            font-weight: 800;
+            font-size: 32px;
+            line-height: 40px;
+            width: 286px;
+            margin-top: 64px;
+        }
+        .h3div{
+            width: 350px;
+            height: 322px;
+        }
+        .getstarted2{
+            margin-top: 40px;
+            margin-left: 0px;
+        }
+        .getstarted1{
+            font-weight: 700;
+            font-size: 18px;
+            line-height: 28px;
+            margin-right: 0px;
+        }
+        .skilled{
+            font-weight: 800;
+            font-size: 36px;
+            line-height: 45px;
+            margin-left: 0px;
+        }
+        .box{
+            width: 350px;
+            height: 322px;
+        }
+        p{
+            margin-top: 24px;
+            margin-bottom: 24px;
+            width: 256px;
+            height: 112px;
+        }
+        main{
+            justify-content: center;
+        }
+        .boxspan{
+            margin-bottom: 40px;
+        }
+        .end2{
+            width: 1090px;
+        }
+    }
+}
