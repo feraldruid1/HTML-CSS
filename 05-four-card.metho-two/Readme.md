@@ -1,1 +1,1 @@
-[index.html](https://feraldruid1.github.io/05.four_card_feature_section/)
+[index.html](https://feraldruid1.github.io/HTML-CSS/05-four-card.metho-two)
